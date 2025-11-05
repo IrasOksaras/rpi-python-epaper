@@ -3,7 +3,7 @@ from setuptools import setup
 
 dependencies = ['Pillow']
 
-dependencies += ['RPi.GPIO', 'spidev']
+dependencies += ['gpiozero', 'RPi.GPIO', 'spidev']
 
 setup(
     name='waveshare-epd',
